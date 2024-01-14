@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel';
+}
+
+#head{
+    margin-top: -10px;
+    height: 250px;
+    background-color: #0c2340;
+}
+#head #Logotext h1
+{
+    
+    font-size: 50px;
+    color:white;
+    margin-top: -190px;
+    margin-left: 250px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#head #Logotext  h4
+{
+    font-weight: 10;
+    font-size: 30px;
+    color: rgb(236, 213, 85);
+    margin-top: -1px;
+    margin-left: 250px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+#nav-bar{
+    margin-top: 110px;
+    height: 130px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#nav-bar #nav-bar-text {
+   
+    width: 100%;
+    height: 80px;
+   gap: 40px;
+    margin-top: -40px;
+    margin-left: 600px;
+    width: 100%;
+    display: flex;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+    
+#nav-bar nav h3{
+  margin-top: 50px;
+}
+#nav-bar #nav-bar-text button {
+    border: none;
+    cursor: pointer;
+    height: 2px;
+    border-radius: 15px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 25px;
+   padding-left: 15px;
+    background-color: aliceblue;
+    font-size: 20px;
+    border-radius: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 45px;
+    height: 20px;
+    width: 20px;
+    font-weight: 700;
+    box-sizing: border-box; 
+    text-align: center;
+    line-height: 0.5;
+    
+  }
+  
+  #nav-bar #nav-bar-text h3:hover{ 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-radius: 12px;
+    background-color: #f4f4f4;
+  }

@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel';
+    
+}
+
+#head{
+    margin-top: -10px;
+    height: 250px;
+    background-color: white;
+}
+#head #Logotext h1
+{
+    
+    font-size: 50px;
+    color: #000;
+    margin-top: -190px;
+    margin-left: 250px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#head #Logotext  h4
+{
+    font-weight: 10;
+    font-size: 30px;
+    color: rgb(173, 168, 168);
+    margin-top: -1px;
+    margin-left: 250px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+#nav-bar{
+    margin-top: 110px;
+    height: 130px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#nav-bar #nav-bar-text {
+   
+    width: 100%;
+    height: 80px;
+   gap: 40px;
+    margin-top: -40px;
+    margin-left: 600px;
+    width: 100%;
+    display: flex;
+    font-size: 23px;
+    font-family: 'cinzel';
+    cursor: pointer;
+}
+    
+#nav-bar nav h3{
+  margin-top: 50px;
+}
+#nav-bar #nav-bar-text button {
+    border: none;
+    cursor: pointer;
+    height: 2px;
+    border-radius: 15px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 25px;
+   padding-left: 15px;
+    background-color: aliceblue;
+    font-size: 20px;
+    border-radius: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 45px;
+    height: 20px;
+    width: 20px;
+    font-weight: 700;
+    box-sizing: border-box; 
+    text-align: center;
+    line-height: 0.5;
+    
+  }
+  
+  #nav-bar #nav-bar-text h3:hover{ 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-radius: 12px;
+    background-color: #f4f4f4;
+  }
+
+
+  .slideshow-container {
+    margin-top: 130px; 
+    position: relative;
+  }
+  
+  .mySlides {
+    display: none;
+    width: 100%;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  
+  .text-bottom-center {
+    margin-top: -100px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #logo{
+    border-radius: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+  }#footer {
+
+    width: 100%;
+    height: 200px;
+    margin-top: 1000px;
+    background-color: rgb(215, 205, 205);
+    display: flex; 
+    align-items: center;
+  }
+  
+  #footer #logof {
+    margin-left: 30px;
+    border-radius: 200px;
+    height: 120px;
+    width: 120px;
+  }
+  
+  #footer #Logotextf {
+    margin-top: -20px;
+    margin-left: 20px;
+  }
+  
+  #footer h1,
+  #footer h4 {
+    margin-top: 0px;
+  }
+  
+  #footer span {
+    display: flex;
+    align-items: center;
+  }
+  
+  #footer i {
+    margin-top: -200px;
+    font-size: 30px;
+    margin-left: 700px;
+  }
+  #footer #fb{
+    margin-left: 200px;
+  }
+  #footer #x{
+        margin-left: 400px;
+  }
+  #footer i:hover{
+    border-radius: 12px;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  #footer p{
+    font-size: 20px;
+    margin-top: -120px;
+    margin-left: 1480px;
+  }
+
+  #head #govt{
+    height: 200px;
+    width: 220px;
+    border-radius: 100px;
+    margin-left: 1500px;
+  }
+
+  .main-container{
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.section-container{
+    height: 21%;
+    width: 1300px;
+    background-size: cover; 
+    background-position: center;
+    background-color: #d7e2e7;
+    margin-top: 0px;
+    border-radius: 0px;
+    box-shadow: 0 0 100px rgba(0, 0,0, 0.1);
+}
+
+.resources_container{
+  height: 90%;
+  width: 150%;
+  margin: 5px;
+  border-radius: 0px;
+  box-shadow: 0 0 100px rgba(0, 0,0, 0.1);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-color: white;
+
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+
+.card {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.aboutus{
+  font-size: 28px;
+  position: absolute;
+  text-align: center;
+  top: 133%;
+  margin-right: 30px;
+  color: white;
+  justify-content: center;
+}
+
+.about-container{
+  width: 100%;
+  height: calc(100vh - 50px);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; 
+  margin-top: 30%;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-heading{
+  color: white;
+}
+#nav-bar-text a{
+  color: black;
+  text-decoration: none;
+}
+#vision{
+  margin-top: 50px;
+  height: 250px;
+  color: white;
+  width: 100%;
+  background-color: #0c2340;
+}
+#vision .section-heading{
+margin-top: 20px;
+  margin-left:950px;
+  font-size: 40px;
+  
+}
+#vision p{
+  margin-left: 750px;
+}
+
+.main-container #about-us{
+  margin-top: 140px;
+}
+#about-us .aboutus{
+  margin-top: -800px;
+}
+.section-heading #c1{
+  margin-top: -10px;
+}
+#news{
+  height: 130px;
+  width: 100%;
+  background-color: #bbb;
+}
+#news #news-text{
+  
+  height: 50px;
+  width: 30%;
+  background-color: crimson;
+}
+#news-text p{
+  font-size: 30px;
+  margin-left: 50px;
+  color: white;
+}
+#news #new{
+  background-color: crimson;
+  padding-left: 1%;
+  padding-right: 1%;
+  
+}
+
+
+#notifications {
+  
+  display: flex;
+  overflow: hidden;
+}
+
+#hyperlinks {
+  cursor: pointer;
+  font-size: 25px;
+  margin-top:10px;
+ width: 25%;
+  overflow: hidden;
+  position: relative;
+  animation: moveLeftToRight 10s linear infinite; /* Adjust the duration as needed */
+animation-delay: 0s;
+  
+}
+
+
+@keyframes moveLeftToRight {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(400%);
+    
+  }
+}
+
+.highlight {
+  background-color: red;
+  color: white;
+  padding: 0 5px;
+}
+#read button{
+  cursor: pointer;
+  margin-left: 1890px;
+  background-color: transparent;
+  color: bla;
+  font-size: 25px;
+  margin-top: -5px;
+  border: none;
+font-weight: bolder;
+text-decoration: underline;
+}
+#res{
+  margin-top: 10px;
+}
+#border{
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  border: 1px solid white;
+  
+}
+.mission-heading{
+  margin-top: 20px;
+  font-size: 35px;
+  margin-left: 950px;
+}
+
+ #pic{
+  background-color: #ffffff;
+  border: 1px solid black;
+  margin-top: 30px;
+  width: 1000px;
+  height: 500px;
+  margin-left: 33px;
+}
+#abt p{
+  justify-content: space-around;
+  font-size: 25px;
+  margin-left: 1070px;
+  margin-top: -400px;
+
+}
+
+#info{
+  width: 100%;
+  background-color: #ffffff;
+  height: 600px;
+}
+#more button{
+  margin-top: 25px;
+  margin-left: 1550px;
+  font-size: 25px;
+  background-color: #0c2340;
+  border: 1px solid black;
+  color: white;
+  cursor: pointer;
+ 
+}
+#card-container {
+  height: 500px;
+  margin-top: 100px;
+  width: 90%;
+  overflow: hidden;
+  position: relative;
+}
+
+#card-wrapper {
+  
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card {
+  width: 1500px;
+  height: 400px;
+  background-color: white;
+  margin: 0 5px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.left-arrow {
+  left: 0;
+}
+
+.right-arrow {
+  right: 0;
+}
+#card-container h2{
+  
+  font-size: 50px;
+  margin-left: 800px;
+}
+.square-card-container {
+  width: 100%;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+.square-card-wrapper {
+  margin-top: 120px;
+  margin-left: 300px;
+  display: flex;
+  animation: moveRightToLeft 10s linear infinite;
+  
+}
+
+.square-card-container #sqh {
+  font-size: 40px;
+  margin-left: 900px;
+}
+
+.square-card {
+  border-radius: 20px;
+  width: 250px;
+  height: 200px;
+  background-color: white;
+  margin: 0 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.square-card-container h2 {
+  font-size: 50px;
+  margin-left: 800px;
+}
+
+@keyframes moveRightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-150%);
+  }
+}
