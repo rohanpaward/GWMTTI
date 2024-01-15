@@ -78,7 +78,7 @@ body {
     font-size: 20px;
     border-radius: 200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-top: 45px;
+    margin-top: -50px;
     height: 20px;
     width: 20px;
     font-weight: 700;
@@ -86,6 +86,10 @@ body {
     text-align: center;
     line-height: 0.5;
     
+    
+  }
+  #nav-bar-text #eng{
+    margin-left: 170px;
   }
   
   #nav-bar #nav-bar-text h3:hover{ 
@@ -199,7 +203,7 @@ body {
 
   #head #govt{
     height: 200px;
-    width: 220px;
+    width: 240px;
     border-radius: 100px;
     margin-left: 1500px;
   }
@@ -229,6 +233,9 @@ body {
     margin-top: 200px;
     margin-left: 900px;
     font-size: 40px;
+}
+a{
+  text-decoration: non;
 }
 #cards-part-2{
     display: flex;
@@ -284,4 +291,5 @@ body {
       opacity: 1;
     }
   }
+  
   
