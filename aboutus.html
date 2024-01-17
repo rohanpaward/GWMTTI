@@ -13,25 +13,26 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head><body>
     
-<header>
+  <header>
     <div id="head">
         <img id="logo" src="logo.jpeg" alt="">
         <img src="Govt.jpeg" alt="" id="govt">
+        <img id="dsret" src="dsret.jpeg" alt="">
         <div id="Logotext">
-                <h1>GOVERNMENT WOMEN <br>TEACHER TRAINING INSTITUTE</h1>
-                <h4>MYSORE</h4>
+                <h1>GOVERNMENT MAHARANIS WOMEN'S <br>TEACHER TRAINING INSTITUTE</h1>
+                <h4>MYSURU</h4>
         </div>
        <div id="nav-bar">
                 
                 <nav id="nav-bar-text">
                   
-                   <a href="index.html"> <h3>Home</h3></a>
+                    <h3>Home</h3>
                     <h3>Resources</h3>
                     <h3>Media</h3>
-                    <h3>About</h3>
+                    <a href="aboutus.html"><h3>About</h3></a>
                     <h3>Photo Gallery</h3>
-                    <h3>Contact us</h3>
-               
+                   <a href="contact.html"> <h3>Contact us</h3></a>
+                  
                     <button id="eng">E</button>
                     <button id="kan">ಕ</button>
                 </nav>
@@ -54,31 +55,39 @@
   </div>
 
   
-<div id="slideshow-container">
-    <div class="slide fade">
-      <img src="image1.jpg" alt="Slide 1">
-    </div>
-    <div class="slide fade">
-      <img src="image2.jpg" alt="Slide 2">
-    </div>
-    <div class="slide fade">
-      <img src="image3.jpg" alt="Slide 3">
-    </div>
+<div class="slideshow-container">
+  <div class="mySlides">
+    <img src="img1.jpeg" alt="Slide 1">
   </div>
 
+  <div class="mySlides">
+    <img src="img2.jpeg" alt="Slide 2">
+  </div>
+
+  <div class="mySlides">
+    <img src="img3.jpeg" alt="Slide 3">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
   
 <div id="footer">
-    <img id="logof" src="logo.jpeg" alt="">
-    <div id="Logotextf">
-      <h1>GOVERNMENT WOMEN <br>TEACHER TRAINING INSTITUTE</h1>
-      <h4>MYSORE</h4>
-      <span id="insta"><i class="ri-instagram-line"> Instagram</i></span>
-      <span id="fb"><i class="ri-facebook-circle-line">Facebook</i></span>
-     <span id="x"><i class="ri-twitter-x-line">X/Twitter</i></span> 
-     <p>Governament Women  Teacher <br> Training Institute <br>Mysore <br> phone:(+91)86181629448</p>
-    </div>
+  <img id="logof" src="logo.jpeg" alt="">
+  <div id="Logotextf">
+    <h1>GOVERNMENT WOMEN <br>TEACHER TRAINING INSTITUTE</h1>
+    <h4>MYSORE</h4>
+    <span id="insta"><i class="ri-instagram-line"> Instagram</i></span>
+    <span id="fb"><i class="ri-facebook-circle-line">Facebook</i></span>
+   <span id="x"><i class="ri-twitter-x-line">X/Twitter</i></span> 
+   <p>Governament Women  Teacher <br> Training Institute <br>Mysore <br> phone:(+91)86181629448</p>
   </div>
-
 </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="Script.js"></script>

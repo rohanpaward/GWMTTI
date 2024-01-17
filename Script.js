@@ -47,17 +47,4 @@ function showSlides() {
   dots[slideIndex - 1].className += " active";
   setTimeout(showSlides, 2000); // Change slide every 2 seconds
 }
-  const cardWrapper = document.getElementById('card-wrapper');
-const cardWidth = document.querySelector('.card').offsetWidth;
-let currentSlide = 0;
-
-function slide(direction) {
-  if (direction === 'left' && currentSlide > 0) {
-    currentSlide--;
-  } else if (direction === 'right' && currentSlide < 9) {
-    currentSlide++;
-  }
-
-  const translateValue = -currentSlide * cardWidth;
-  cardWrapper.style.transform = `translateX(${translateValue}px)`;
-}
+  

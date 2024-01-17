@@ -1,112 +1,127 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Cinzel';
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Cinzel';
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cinzel';
+  
 }
 
 #head{
-    margin-top: -10px;
-    height: 250px;
-    background-color: white;
+  margin-top: -10px;
+  height: 250px;
+  background-color: white;
 }
 #head #Logotext h1
 {
-    
-    font-size: 50px;
-    color: #000;
-    margin-top: -190px;
-    margin-left: 250px;
-    font-family: 'Times New Roman', Times, serif;
+  
+  font-size: 50px;
+  color: #000;
+  margin-top: -190px;
+  margin-left: 250px;
+  font-family: 'Times New Roman', Times, serif;
 }
 #head #Logotext  h4
 {
-    font-weight: 10;
-    font-size: 30px;
-    color: rgb(173, 168, 168);
-    margin-top: -1px;
-    margin-left: 250px;
-    font-family: 'Times New Roman', Times, serif;
+  font-weight: 10;
+  font-size: 30px;
+  color: rgb(173, 168, 168);
+  margin-top: -1px;
+  margin-left: 250px;
+  font-family: 'Times New Roman', Times, serif;
 }
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 #nav-bar{
-    margin-top: 110px;
-    height: 130px;
-    width: 100%;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 90px;
+  height: 130px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 #nav-bar #nav-bar-text {
-   
-    width: 100%;
-    height: 80px;
-   gap: 40px;
-    margin-top: -40px;
-    margin-left: 600px;
-    width: 100%;
-    display: flex;
-    font-size: 23px;
-    font-family: 'cinzel';
-    cursor: pointer;
+ 
+  width: 100%;
+  height: 80px;
+ gap: 40px;
+  margin-top: -40px;
+  margin-left: 600px;
+  width: 100%;
+  display: flex;
+  font-size: 23px;
+  font-family: 'cinzel';
+  cursor: pointer;
 }
-    
+  
 #nav-bar nav h3{
-  margin-top: 50px;
+margin-top: 50px;
 }
 #nav-bar #nav-bar-text button {
-    border: none;
-    cursor: pointer;
-    height: 2px;
-    border-radius: 15px;
-   padding-top: 20px;
-   padding-bottom: 20px;
-   padding-right: 25px;
-   padding-left: 15px;
-    background-color: aliceblue;
-    font-size: 20px;
-    border-radius: 200px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-top: -50px;
-    height: 20px;
-    width: 20px;
-    font-weight: 700;
-    box-sizing: border-box; 
-    text-align: center;
-    line-height: 0.5;
-    
-    
-  }
-  #nav-bar-text #eng{
-    margin-left: 170px;
-  }
+  border: none;
+  cursor: pointer;
+  height: 2px;
+  border-radius: 15px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-right: 25px;
+ padding-left: 15px;
+  background-color: aliceblue;
+  font-size: 20px;
+  border-radius: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  height: 20px;
+  width: 20px;
+  font-weight: 700;
+  margin-top: -60px;
+  text-align: center;
+  line-height: 0.5;
+  /* margin-left: 70px; */
   
-  #nav-bar #nav-bar-text h3:hover{ 
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 40px;
-    border-radius: 12px;
-    background-color: #f4f4f4;
-  }
+  
+}
+#eng{
+  margin-left: 130px;
+}
 
 
-  .slideshow-container {
-    margin-top: 130px; 
-    position: relative;
-  }
-  
+#nav-bar #nav-bar-text h3:hover{ 
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  border-radius: 12px;
+  background-color: #f4f4f4;
+}
+
+
+#logo{
+  border-radius: 200px;
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+}
+#govt{
+  margin-left: 200px;
+}
+#dsret{
+  border-radius: 50px;
+  margin-top: -2000px;
+  margin-left: 1500px;
+  height: 200px;
+  width: 180px;
+}
+#head #govt{
+  height: 200px;
+  width: 240px;
+  border-radius: 100px;
+  margin-left: 1000px;
+}
+ 
   .mySlides {
     display: none;
     width: 100%;
@@ -147,11 +162,13 @@ body {
     margin-top: 20px;
     width: 200px;
     height: 200px;
-  }#footer {
+  }
+  
+  #footer {
 
     width: 100%;
     height: 200px;
-    margin-top: 100px;
+    margin-top: 200px;
     background-color: rgb(215, 205, 205);
     display: flex; 
     align-items: center;
@@ -201,14 +218,8 @@ body {
     margin-left: 1480px;
   }
 
-  #head #govt{
-    height: 200px;
-    width: 240px;
-    border-radius: 100px;
-    margin-left: 1500px;
-  }
 #faculty-details{
-   height: 2000px;
+   height: 1500px;
 }
 #cards{
     
@@ -257,39 +268,75 @@ a{
     margin-left: 200px;
 }
 .card:hover {
-    transform: scale(1.1); /* Scale up the card on hover */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Increase the shadow intensity on hover */
+    transform: scale(1.1); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); 
   }
   .card2:hover{
-    transform: scale(1.1); /* Scale up the card on hover */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Increase the shadow intensity on hover */
+    transform: scale(1.1); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); 
   }
 
-  #slideshow-container {
-    max-width: 400px;
+  .slideshow-container {
+    max-width: 800px;
+    position: relative;
     margin: auto;
     overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 8px;
   }
   
-  .slide {
+  .mySlides {
+    margin-top: 100px;
+    height: 100%;
+    width: 100%;
     display: none;
   }
   
   img {
     width: 100%;
+    height: auto;
   }
   
-  .fade {
-    animation: fade 1.5s ease-in-out infinite;
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0, 0, 0, 0.5);
   }
   
-  @keyframes fade {
-    from {
-      opacity: 0.4;
-    }
-    to {
-      opacity: 1;
-    }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
   }
   
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
   
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+  }
+  
+  .active-dot {
+    background-color: #717171;
+  }
